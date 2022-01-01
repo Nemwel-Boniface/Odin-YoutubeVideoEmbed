@@ -12,7 +12,7 @@ html, body {
 } 
 body
 {
-  background: #fff;
+  background: #f1f5f7;
     position: relative;
 }
 h2
@@ -27,3 +27,97 @@ p
 }
 
 /*actual styling*/
+header
+{
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+}
+.nav-bar
+{
+    display: flex;
+    padding: 20px;
+}
+/*Three bars*/
+.threebars
+{
+    margin: auto 30px;
+}
+.threebars a
+{
+    text-decoration: none;
+    color: #000;
+}
+.threebars a i
+{
+    font-size: 26px;
+}
+
+/*navbar-logo*/
+.navbar-logo a
+{
+    display: flex;
+    margin: auto 30px;
+    text-decoration: none;
+}
+.navbar-logo a i
+{
+    color: #ff0000;
+    font-size: 27px;
+    margin-right: 10px;
+}
+.navbar-logo a p
+{
+    color: #000;
+    font-weight: 600;
+}
+.navbar-logo a p sup
+{
+    font-style: italic;
+    opacity: .7;
+    font-weight: 350;
+    font-size: 14px;
+}
+
+/*searchbar now*/
+.navbarSearchbar
+{
+    margin: auto 55px;;
+}
+.navbarSearchbar input
+{
+    width: 525px;
+    height: 36px;
+}
+.navbarSearchbar .searching
+{
+    padding: 4px;
+    height: 36px;
+    width: 70px;
+    font-size: 22px;
+    margin-right: 30px;
+    cursor: pointer;
+    margin: auto 0;
+}
+.navbarSearchbar .voice
+{
+    border-radius: 50%;
+    font-size: 23px;
+    padding: 7px;
+    border: 0;
+    margin: auto 40px;
+    cursor: pointer;
+}
+.navbar-signin
+{
+    margin: auto 42px;
+}
+.navbar-signin button
+{
+    padding: 8px;
+}
+.navbar-signin i
+{
+    font-size: 18px;
+    margin-right: 5px;
+}
