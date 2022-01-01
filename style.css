@@ -1,0 +1,29 @@
+/*This style sheet contains styling for the header section of our youtube mock*/
+/*It is purely a desktop version but a mobile version will later be introduced*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+html, body {
+  overflow-x: hidden;
+} 
+body
+{
+  background: #fff;
+    position: relative;
+}
+h2
+{
+    font-size: 25px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+p
+{
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*actual styling*/
