@@ -25,3 +25,78 @@ p
     font-size: 16px;
     font-family: 'Ubuntu', sans-serif;
 }
+
+/*Actual page styling*/
+
+.content
+{
+    margin: 50px 60px 60px 60px;
+}
+
+/*The left side now*/
+.contentleft iframe
+{
+    width: 100%;
+    height: 70vh;
+    margin: 40px o;
+}
+.contentleft-desc h2
+{
+    margin: 40px 0;
+}
+.descratings
+{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.descratings .item
+{
+    display: flex;
+}
+.descratings .item p
+{
+    margin-right: 40px;
+}
+.descratings .item p i
+{
+    font-size: 23px;
+    margin-right: 7px;
+}
+
+/*we shall now get some space from the channel name*/
+.channelName
+{
+    margin: 40px 0;
+}
+/*make the right and left have a distinguishing space btwn them*/
+.topchannelName
+{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*the channel logo and name to flex*/
+.topchannelNameLeft
+{
+    display: flex;
+}
+.topchannelNameLeft h2
+{
+    padding: 15px;
+    background-color: lightblue;
+    color: #000;
+    margin-right: 25px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+.compartmentals p
+{
+    margin-top: 11px;
+}
