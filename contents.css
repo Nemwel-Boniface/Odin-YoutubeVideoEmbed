@@ -30,7 +30,10 @@ p
 
 .content
 {
-    margin: 50px 60px 60px 60px;
+    margin: 100px 60px 60px 60px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 30px;
 }
 
 /*The left side now*/
@@ -38,7 +41,7 @@ p
 {
     width: 100%;
     height: 70vh;
-    margin: 40px o;
+    margin: 50px o;
 }
 .contentleft-desc h2
 {
@@ -99,4 +102,56 @@ p
 .compartmentals p
 {
     margin-top: 11px;
+}
+.faded
+{
+    font-size: 15px;
+    font-style: italic;
+    opacity: .7;
+}
+
+/*now to the right subscribe button*/
+
+.topChannelNameRight 
+{
+    margin-right: 30px;
+}
+.topChannelNameRight button
+{
+    background-color: #ff0000;
+    padding: 11px;
+    color: #fff;
+    border: 0;
+    font-size: 19px;
+    cursor: pointer;
+    width: 150px;
+}
+
+/*video description now*/
+.videodesc
+{
+    margin: 30px 70px 30px 70px;
+}
+
+/*now to making a right side styling*/
+.suggestedvids
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 0 0 40px 0;
+}
+.suggestediframe iframe
+{
+    width: 190px;
+}
+
+.suggesteddesc h2
+{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.suggesteddesc .faded
+{
+    font-size: 12px;
 }
